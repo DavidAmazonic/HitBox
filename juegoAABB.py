@@ -7,7 +7,7 @@ timestop = 0.005
 # Configuración ventana
 wn = turtle.Screen()
 wn.title("AABB")
-wn.bgcolor("gray")
+wn.bgcolor("white")
 wn.setup(width=600, height=600)
 wn.tracer(0)
 
@@ -18,14 +18,14 @@ person.speed(2)
 person.shape("square")
 person.penup()
 person.goto(0, 0)
-person.direction = "up"
+person.direction = "stop"
 
 # Objetos estatico
 
 ogject1 = turtle.Turtle()
 ogject1.speed(2)
 ogject1.shape("square")
-ogject1.color("yellow")
+ogject1.color("black")
 ogject1.penup()
 ogject1.goto(100, 50)
 ogject1.direction = "stop"
@@ -34,12 +34,12 @@ ogject1.direction = "stop"
 
 ogject2 = turtle.Turtle()
 ogject2.speed(2)
-ogject2.shape("triangle")
-ogject2.color("red")
+ogject2.shape("square")
+ogject2.color("black")
 ogject2.penup()
 ogject2.goto(-50, -100)
 ogject2.direction = "stop"
-# ogject2.shapesize(2, 2)
+# ogject2.shapesize(0.5, 0.5)
 
 # Variables
 
